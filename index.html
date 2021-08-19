@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>GadgetsBrasil</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Henrique Matos">
+		<meta name="keywords" content="gadgets, iphone 12 pro, apple watch, airpods pro, iphone 12 mini">
+		<meta name="description" content="Produtos Apple!">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<nav>						
+			<a class="top-menu" href="#"> HOME </a>
+			<a class="top-menu" href="#quemsomos"> SOBRE </a>
+			<a class="top-menu" href="#nossosprodutos"> PRODUTOS </a>
+			<a class="top-menu" href="#encomende"> ENCOMENDAS </a>
+		</nav>
+
+		<header><img src="img/gadgetsbrasil_1443_300.jpeg" alt="banner do topo do site, contendo os produtos vendidos pela loja GadgetsBrasil: um par de apple watchs, airpods e dois modelos de iphones">
+		</header>			
+		<section id="quemsomos">					
+			<h1>GadgetsBrasil</h1>			
+			<p>Nós somos uma loja online  nova, formada por apaixonados por tecnologia, que foi aberta para oferecer os principais produtos da Apple com os melhores preços e parcelamentos do mercado.</p>
+			<p>Junto com os nossos produtos você receberá um acesso a uma área de com os melhores tutoriais para você aprender a tirar o máximo dos produtos que vendemos.</p>
+			<p>Comprar da gente será a melhor experiência de compra que você terá no merdado!</p>
+		</section>	
+		<article id="container-ofertas">
+			<div>
+				<h2>Nossos Gadgets</h2>
+				<p>Aproveite nossas ofertas!</p>
+			</div>
+			
+			<div id="container">
+				<div class="card">
+					<img src="img/iphone12pro.jpg" alt="iphone 12 pro">
+					<div class"card-content">
+						<h3>Iphone 12 pro 128GB</h3>
+						<h3>R$ 3.990,00</h3>						
+					</div>					
+				</div>
+				<div class="card">
+					<img src="img/applewatchserie5alumínio.jpg" alt="Apple Watch série 5">
+					<div class"card-content">
+						<h3>Apple Watch série 5</h3>
+						<h3>R$ 1.990,00</h3>						
+					</div>
+				</div>					
+				<div class="card">
+					<img src="img/iphone12mini.jpg" alt="Iphone 12 mini 128GB">
+					<div class"card-content">
+						<h3>Iphone 12 mini 128GB</h3>	
+						<h3>3.490,00</h3>					
+					</div>
+				</div>			
+				<div class="card">
+					<img id="airpods" src="img/airpodspro.jpg" alt="Airpods pro">
+					<div class"card-content">
+						<h3>Airpods pro</h3>	
+						<h3>R$ 1.490,00</h3>					
+					</div>					
+				</div>
+			</div>			
+		</article>
+
+		
+		<div>
+		<font>
+			<a name="encomende"></a>
+			<h2 align="left">Encomendas</h2>
+			<p>Faça a sua encomenda preenchendo o formulário abaixo.</p>
+		</font>
+		</div>
+		<div>
+			<form name="" method="POST" action="">
+				<label for="nome">Nome:*</label><br>
+				<input id="nome" type="text" name="nome" size="57" placeholder="Digite seu nome completo" required autofocus><br><br>
+				
+				
+				<label for="email">E-mail:*</label><br>			        
+				<input id="email" type="email" name="email" size="57" placeholder="nome@email.com" required><br><br>
+
+				  		    
+
+			    <label for="nivel">Produto:</label><br>
+			    <select id="nivel" name="nivel" style="width: 435px;">
+			    	<option value="">Selecione</option>
+			    	<option value="iphone12pro128gb">Iphone 12 pro 128GB</option>
+			    	<option value="applewathcserie5">Apple Watch série 5</option>
+			    	<option value="iphone12mini128gb">Iphone 12 mini 128GB</option>
+			    	<option value="airpodspro">Airpods pro</option>
+
+			    </select><br><br>
+
+			    <label for="data">Quantidade:</label><br>
+			    <input type="number" name="" min="1" max="10" step="1" style="width: 428px;" placeholder="selecione a quantidade"><br><br>
+
+			    <fieldset style="width: 404px;">
+				    <legend>Forma de Retirada</legend>
+				    <input id="deliv" type="radio" name="formaderetirada" value="deliv"> <label for="deliv">Delivery</label><br>
+				    <input id="naloja" type="radio" name="formaderetirada" value="naloja"> <label for="naloja">Retirar na loja</label><br>
+				    
+				</fieldset><br>
+
+				
+					<label for="msg">Comentários:</label><br>
+					<textarea id="msg" cols="59" rows="4"></textarea>
+
+				<p>
+				<input type="button" value="ENCOMENDAR">
+				<input type="reset" value="CANCELAR">
+			    </p>
+			</form>
+		</div>
+		</div>
+		
+		<div style="background-color:#FFF7D2">
+			<p align="center">Desenvolvido por <a href="https://www.linkedin.com/in/michael-andreetta-315338211/" target="_blank"> <strong>Henrique Matos</strong> </a>- 2021</p>
+			
+		</div>
+	</body>
+</html>
+
+
+
+
